@@ -21,7 +21,6 @@ def bag_of_words(texts):
     Inputs a list of string reviews
     Returns a dictionary of unique unigrams occurring over the input
     """
-    # Your code here
     dictionary = {} # maps word to unique index
     for text in texts:
         word_list = extract_words(text)
